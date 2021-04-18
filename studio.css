@@ -48,3 +48,14 @@
   margin: auto;
   margin-bottom: 20px;
 }
+.services{
+  background: url(images/services.jpg);
+  text-align: center;
+  color: white;
+  padding: 100px;
+}
+.services p{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+}
