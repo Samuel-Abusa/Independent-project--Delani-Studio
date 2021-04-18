@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wlcm{
+  background: url(images/stairs_background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  font-size: 120%;
+  line-height: 2.5em;
+}
+.logo{
+  position: relative;
+  top: 40%;
+  left: 50%;
+}
+.txt{
+  width: 50%;
+  position: relative;
+  top: 50%;
+  left: 40%;
+}
+
+.ms{
+  position: relative;
+  top: 65%;
+  left: 52%;
+}
