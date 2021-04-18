@@ -10,23 +10,39 @@
   background-repeat: no-repeat;
   height: 100vh;
   color: white;
-  font-size: 120%;
   line-height: 2.5em;
 }
 .logo{
   position: relative;
-  top: 40%;
-  left: 50%;
+  top: 32%;
+  left: 49%;
 }
 .txt{
   width: 50%;
   position: relative;
-  top: 50%;
-  left: 40%;
+  top: 37%;
+  left: 39%;
 }
-
+.wlcm h1{
+  font-size: 50;
+  font-size: 350%;
+}
+.h_1{
+  left: 45%;
+  margin-bottom: 25px;
+}
+.h_1_2{
+  left: 41%;
+}
 .ms{
   position: relative;
-  top: 65%;
+  top: 60%;
   left: 52%;
+}
+.abt{
+  text-align: center;
+}
+.abt p{
+  width: 55%;
+  margin: auto;
 }
