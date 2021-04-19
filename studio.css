@@ -100,14 +100,19 @@ img{
   position: relative;
 }
 .overlay{
+  display: none;
+}
+.col-md-3:hover .overlay{
+  display: block;
   position: absolute;
   width: 91.8%;
   height: 100%;
   padding: 30px;
   background: rgba(0, 0, 0, .5);
   z-index: 2;
+  
 }
-.overlayNest{
+.col-md-3:hover .overlayNest{
   position: absolute;
   width: 75%;
   height: 75%;

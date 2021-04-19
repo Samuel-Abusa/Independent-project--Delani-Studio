@@ -43,3 +43,13 @@ $ (document).ready(function(){
     $ ('.jPrg3').css({'display' : 'none'})
   })
 });
+//hover
+/*$ (document).ready(function(){
+  $ ('.overlay, .overlayNest').css({'display' : 'none'})
+});
+
+$ (document).ready(function(){
+  $ ('.col-md-3').hover(function(){
+    $ ('.overlay, .overlayNest').css({'display' : 'block'})
+  })
+});*/
