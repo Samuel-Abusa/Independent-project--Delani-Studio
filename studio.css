@@ -54,6 +54,9 @@ img{
 }
 .services{
   background: url(images/services.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   color: white;
   padding: 100px;
@@ -138,6 +141,7 @@ form{
   margin: auto;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 input{
@@ -173,4 +177,50 @@ textarea{
 footer{
   text-align: center;
   padding-bottom: 30px;
+}
+@media (max-width: 1325px){
+  body{
+    max-width: 50em;
+    margin: 0 auto;
+  }
+  .logo{
+    display: none;
+  }
+  .ms{
+    display: none;
+  }
+  .wlcm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .wlcm h1{
+    font-size: 200%;
+  }
+  .h_1{
+    margin-bottom: 0;
+  }
+  .txt{
+    position: static;
+    text-align: center;
+    flex-basis: 60%;
+  }
+  .abt p{
+    width: 100%;
+  }
+  .services p{
+    width: 100%;
+  }
+  .col-md-3:hover .overlay{
+    width: 89%;
+  }
+  input{
+    width: 100%;
+    margin-top: 20px;
+  }
+  textarea{
+    max-width: 95%;
+  }
 }
