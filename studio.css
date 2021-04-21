@@ -214,7 +214,7 @@ footer{
     width: 100%;
   }
   .col-md-3:hover .overlay{
-    width: 89%;
+    display: none;
   }
   input{
     width: 100%;
